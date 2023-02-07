@@ -8,7 +8,14 @@
 </head>
 <body>
 <?php
-    echo 'Hello Boy';
+    $charName = "Jacob";
+    $charAge = 75;
+    echo"<h1>$charName House</h1>";
+    echo"<p>Let's get it because I am $charAge years old.</p>";
+
+    $charName = "Mikeal";
+    echo"<h1>$charName Home</h1>";
+    echo"<p>Let's get it because I am $charAge years old.</p>";
 ?>
 </body>
 </html>
